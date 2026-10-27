@@ -141,7 +141,7 @@ class NLPAPP:
       self.sentiment_input = Entry(self.root, width=30)
       self.sentiment_input.pack(pady=(5,10),ipady= 5)
 
-      sentiment_button = Button(self.root, text="Analise The Sentiment", width=25, height=2, command=self.do_sentiment)
+      sentiment_button = Button(self.root, text="Analyse The Sentiment", width=25, height=2, command=self.do_sentiment)
       sentiment_button.pack(pady=(15, 15), ipady=5)
       self.sentiment_result = Label(self.root, text="", bg="#757272", fg="white")
       self.sentiment_result.pack(pady=(10, 10))
